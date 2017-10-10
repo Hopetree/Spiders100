@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 
+"""
+汽车之家二手车爬虫
+爬虫使用lxml解析器和Xpath选择器
+数据存放到mongodb中
+"""
+
 import requests
 from lxml import etree
 from pymongo import MongoClient
