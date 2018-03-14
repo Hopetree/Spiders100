@@ -30,8 +30,8 @@ class Tools(object):
         }
         html = requests.get(sitemap,headers=headers).text
         urls = re.findall('<loc>http://(.*?)</loc>',html)
-        urls = ['www.'+url for url in urls]
-        # print(urls)
+        # urls = ['www.'+url for url in urls]
+        print(urls)
         return urls
 
 if __name__ == '__main__':
