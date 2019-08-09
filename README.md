@@ -1,17 +1,21 @@
-先定一个小目标，写100个爬虫！
+先定一个小目标，写它100个爬虫！
 
-001—— [`autohome.py`](https://github.com/Hopetree/Spiders100/blob/master/autohome.py) 
+001—— [`autohome.py`](blob/master/autohome.py) 
+> 汽车之家二手车爬虫
 
-相关文章：[汽车之家二手车信息爬虫](http://www.stopfollow.com/article/python-crawler-by-lxml-to-autohome/)
+002—— [`jianshu-search.py`](blob/master/jianshu-search.py)
+> 简书搜索爬虫
 
-002—— [`jianshu-search.py`](https://github.com/Hopetree/Spiders100/blob/master/jianshu-search.py)
+003—— [`bd-zhanzhang`](tree/master/bd-zhanzhang)
+> 百度主动推送
 
-相关文章：[简书搜索爬虫](http://www.stopfollow.com/article/python-crawler-get-jianshu-searching-1/)
 
-003—— [`bd-zhanzhang`](https://github.com/Hopetree/Spiders100/tree/master/bd-zhanzhang)
+004—— [`tm-itemdetail`](tree/master/tm-itemdetail)
+> 天猫查询商品指定信息
 
-相关文章：[主动提交博客链接给百度蜘蛛](http://www.stopfollow.com/article/SEO-zhanzhang_baidu-post-urls/)
+005——[`youdao.py`](blob/master/youdao.py)
+> 有道翻译爬虫（不解析版本）
 
-004—— [`tm-itemdetail`](https://github.com/Hopetree/Spiders100/tree/master/tm-itemdetail)
+006——[`sina-weipan`](tree/master/sina-weipan)
+> 新浪微盘资源下载
 
-相关文章：[使用selenium爬虫提取天猫信息](http://www.stopfollow.com/article/selenium-crawler-get-tmall-information/)
